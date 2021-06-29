@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A57FFDF5-0E6E-7950-7287-BCBBA2DBE1F6}</ProjectGuid>
+    <ProjectGuid>{D0B3479D-1018-E463-0DE0-A70C962C0B29}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Kino.Postprocessing</AssemblyName>
@@ -53,14 +53,14 @@
     <UnityVersion>2020.3.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Slice.cs" />
-    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Streak.cs" />
-    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Recolor.cs" />
-    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\TestCard.cs" />
-    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Glitch.cs" />
     <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Utility.cs" />
+    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Recolor.cs" />
+    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Streak.cs" />
     <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Internal\Utility.cs" />
+    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Glitch.cs" />
     <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Overlay.cs" />
+    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\TestCard.cs" />
+    <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Slice.cs" />
     <Compile Include="Z:\Downloads\Kino-master (1)\Kino-master\Packages\jp.keijiro.kino.post-processing\Runtime\Sharpen.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{79D28A25-8B75-FD4E-E888-80D0A5E5539D}</ProjectGuid>
+    <ProjectGuid>{76B4D5EB-8E15-E591-7F04-43E4061B3ED1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,30 +53,30 @@
     <UnityVersion>2020.3.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\LookWithMouse.cs" />
-    <Compile Include="Assets\Scripts\GazeDetection.cs" />
-    <Compile Include="Assets\Scripts\CollisionController.cs" />
-    <Compile Include="Assets\Scripts\SpawnPrefabOnKeyDown.cs" />
+    <Compile Include="Assets\Mesh Extrusion\Scripts\MeshExtrusion.cs" />
+    <Compile Include="Assets\Scripts\MobileCamera.cs" />
+    <Compile Include="Assets\Scripts\AutoRotate.cs" />
     <Compile Include="Assets\Scripts\Gyro.cs" />
     <Compile Include="Assets\Scripts\lookAt.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\Scripts\OnClickDestroy.cs" />
-    <Compile Include="Assets\Scripts\AutoRotate.cs" />
-    <Compile Include="Assets\Scripts\MobileCamera.cs" />
-    <Compile Include="Assets\Scripts\DistanceBasedAnimation.cs" />
-    <Compile Include="Assets\Mesh Extrusion\Scripts\ExtrudeMesh.cs" />
-    <Compile Include="Assets\Scripts\Rotate.cs" />
-    <Compile Include="Assets\Mesh Extrusion\Scripts\MeshExtrusion.cs" />
-    <Compile Include="Assets\Mesh Extrusion\Scripts\MoveUpAndDown.cs" />
-    <Compile Include="Assets\Scripts\ChangeTexture.cs" />
-    <Compile Include="Assets\Scripts\Buoyancy.cs" />
-    <Compile Include="Assets\Scripts\Floater.cs" />
-    <Compile Include="Assets\Scripts\TextureScroller.cs" />
-    <Compile Include="Assets\Scripts\SwitchMaterial.cs" />
-    <Compile Include="Assets\Scripts\ExplodeDiagram.cs" />
     <Compile Include="Assets\Scripts\DragRigidbody.cs" />
+    <Compile Include="Assets\Scripts\Floater.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\GazeDetection.cs" />
+    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\TextureScroller.cs" />
+    <Compile Include="Assets\Mesh Extrusion\Scripts\MoveUpAndDown.cs" />
+    <Compile Include="Assets\Scripts\DistanceBasedAnimation.cs" />
+    <Compile Include="Assets\Scripts\CollisionController.cs" />
+    <Compile Include="Assets\Mesh Extrusion\Scripts\ExtrudeMesh.cs" />
+    <Compile Include="Assets\Scripts\SwitchMaterial.cs" />
+    <Compile Include="Assets\SampleSceneAssets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\ChangeTexture.cs" />
+    <Compile Include="Assets\Scripts\SpawnPrefabOnKeyDown.cs" />
+    <Compile Include="Assets\Scripts\LookWithMouse.cs" />
+    <Compile Include="Assets\Scripts\Buoyancy.cs" />
+    <Compile Include="Assets\Scripts\ExplodeDiagram.cs" />
+    <Compile Include="Assets\Scripts\OnClickDestroy.cs" />
+    <Compile Include="Assets\Scripts\Rotate.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
@@ -732,11 +732,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Kino.Postprocessing.csproj">
-      <Project>{A57FFDF5-0E6E-7950-7287-BCBBA2DBE1F6}</Project>
+      <Project>{D0B3479D-1018-E463-0DE0-A70C962C0B29}</Project>
       <Name>Kino.Postprocessing</Name>
     </ProjectReference>
     <ProjectReference Include="Kino.Postprocessing.Editor.csproj">
-      <Project>{FF102D8D-A6AC-B446-933E-EC8022D4FB30}</Project>
+      <Project>{3EDD1490-6A5B-A72E-C888-6908C7518923}</Project>
       <Name>Kino.Postprocessing.Editor</Name>
     </ProjectReference>
   </ItemGroup>

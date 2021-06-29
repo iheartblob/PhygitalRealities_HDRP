@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FF102D8D-A6AC-B446-933E-EC8022D4FB30}</ProjectGuid>
+    <ProjectGuid>{3EDD1490-6A5B-A72E-C888-6908C7518923}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Kino.Postprocessing.Editor</AssemblyName>
@@ -679,7 +679,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Kino.Postprocessing.csproj">
-      <Project>{A57FFDF5-0E6E-7950-7287-BCBBA2DBE1F6}</Project>
+      <Project>{D0B3479D-1018-E463-0DE0-A70C962C0B29}</Project>
       <Name>Kino.Postprocessing</Name>
     </ProjectReference>
   </ItemGroup>

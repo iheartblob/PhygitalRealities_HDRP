@@ -14,8 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Animation/Animations/Cube.controller
+    - Assets/Animation/Animations/Sphere.controller
+    - Assets/Scenes/DemoMechanics.unity
+    - Assets/Scenes/DemoMechanics/Hitbox_01 Profile.asset
+    - Assets/Scenes/DemoMechanics/Hitbox_02 Profile.asset
+    - Assets/Scenes/DemoMechanics/Hitbox_03 Profile.asset
+    - Assets/Scripts/CollisionController.cs
+    - Assets/Scripts/DistanceBasedAnimation.cs
     - 
-    m_Values: 01
+    m_Values: 010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

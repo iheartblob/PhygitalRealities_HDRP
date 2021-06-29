@@ -9,6 +9,7 @@ public class DistanceBasedAnimation : MonoBehaviour
     public Transform Target;
     private Animator anim;
     public Slider mySlider;
+    public string AnimationName;
     // Start is called before the first frame update
     void Awake()
     {
@@ -19,7 +20,7 @@ public class DistanceBasedAnimation : MonoBehaviour
     {
        // Player = GameObject.FindGameObjectWithTag("MainCamera").transform;
         anim = GetComponent<Animator>();
-        anim.Play("Tower_01");
+        anim.Play(AnimationName);
         anim.speed = 0;
     }
 
@@ -33,6 +34,6 @@ public class DistanceBasedAnimation : MonoBehaviour
         float value = dist / Target.position.z;
         mySlider.value = value;
         Debug.Log(value);
-        anim.Play("Tower_01", -1, mySlider.normalizedValue);
+        anim.Play(AnimationName, -1, mySlider.normalizedValue);
     }
 }

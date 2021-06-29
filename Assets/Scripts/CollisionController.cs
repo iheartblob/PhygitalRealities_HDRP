@@ -12,6 +12,8 @@ public class CollisionController : MonoBehaviour
     public GameObject[] GOEnable;
     public bool EnableGO;
     public bool DisableGO;
+    public bool textureScrollerNeeded;
+    public TextureScroller textureScrollerScript;
 
     [Header("Sounds")]
     public AudioSource audioSource;
@@ -34,7 +36,10 @@ public class CollisionController : MonoBehaviour
             }
   
         }
-
+        if(textureScrollerNeeded)
+        {
+            textureScrollerScript.enabled = true;
+        }
         audioSource.Play();
         Debug.Log("Entered");
     }
@@ -52,6 +57,13 @@ public class CollisionController : MonoBehaviour
                 GOEnable[i].SetActive(false);
             }
         }
+
+        //Activate below if you want texture scroller to disable on exit 
+
+        //if (textureScrollerNeeded)
+        //{
+        //    textureScrollerScript.enabled = false;
+        //}
 
         Debug.Log("Exited");
     }
