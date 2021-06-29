@@ -1,0 +1,271 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 32719 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+Z:\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+Z:/Documents_too/Unity Folders/TestWorkshopProject_01_HDRP
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51177
+Successfully changed project path to: Z:/Documents_too/Unity Folders/TestWorkshopProject_01_HDRP
+Z:/Documents_too/Unity Folders/TestWorkshopProject_01_HDRP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 210.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path Z:/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/Documents_too/Unity Folders/TestWorkshopProject_01_HDRP/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'Z:/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'Z:/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: Z:/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001668 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 233.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.013 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 211.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 14.531 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3548 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.6 MB.
+System memory in use after: 176.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 46.984200 ms (FindLiveObjects: 3.469700 ms CreateObjectMapping: 0.961100 ms MarkObjects: 32.664900 ms  DeleteObjects: 9.883500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Skyboxes/LA_Downtown_Helipad_GoldenHour_8k.jpg
+  artifactKey: Guid(ec2b9ec42164df24b801efeb75c0e397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/LA_Downtown_Helipad_GoldenHour_8k.jpg using Guid(ec2b9ec42164df24b801efeb75c0e397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a9cbf9b64918b4476c4da299fd3ddd') in 1.051174 seconds
+  Import took 1.132024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Skyboxes/PinkSunset02.cubemap
+  artifactKey: Guid(7f2569df4c993b245affa3e1d99d9a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/PinkSunset02.cubemap using Guid(7f2569df4c993b245affa3e1d99d9a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048c0c555181b102366562bfea51359e') in 0.212202 seconds
+  Import took 0.255820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Skyboxes/Skybox_Forest.mat
+  artifactKey: Guid(42d57f3643fb19f4fbc3f3e9bd76d0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox_Forest.mat using Guid(42d57f3643fb19f4fbc3f3e9bd76d0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+ -> (artifact id: '4addf3f500c05c747a6f0e3c1a0f5cb4') in 4.930651 seconds
+  Import took 4.970143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Skyboxes/Skybox_Desert.mat
+  artifactKey: Guid(c9388f9739df8804aa8c356bd675610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox_Desert.mat using Guid(c9388f9739df8804aa8c356bd675610b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a2f961aee780e1a53fca885ab1ab80') in 0.090276 seconds
+  Import took 0.133086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Skyboxes/MoodySunrise01.cubemap
+  artifactKey: Guid(e811188ea6997a248920852a0e94888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/MoodySunrise01.cubemap using Guid(e811188ea6997a248920852a0e94888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845d2307d7fee191f097e56b015fc7d1') in 0.213092 seconds
+  Import took 0.263122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Skyboxes/StormySky.cubemap
+  artifactKey: Guid(7cdff05ceffc9f84b9341ce458db7d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/StormySky.cubemap using Guid(7cdff05ceffc9f84b9341ce458db7d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67258c163edda7189ac7cc491d45615') in 0.246184 seconds
+  Import took 0.284461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Skyboxes/Skybox1_sun_cloud 3.mat
+  artifactKey: Guid(b8347ed17508d9c4181b0bcaed9b11f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox1_sun_cloud 3.mat using Guid(b8347ed17508d9c4181b0bcaed9b11f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c84db7520123eb6860ef5b402b3e72') in 0.070181 seconds
+  Import took 0.085788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Skyboxes/Skybox1_sun_cloud 2.mat
+  artifactKey: Guid(146d7de7b2abb664a9a89ecf63ae8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox1_sun_cloud 2.mat using Guid(146d7de7b2abb664a9a89ecf63ae8510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01b8f2eeaa4eaab7e27d9699600dec5') in 0.063122 seconds
+  Import took 0.075198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Skyboxes/PinkSunset01.cubemap
+  artifactKey: Guid(7af5886facf001149a96ae4f9aa2631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/PinkSunset01.cubemap using Guid(7af5886facf001149a96ae4f9aa2631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdebb96eedff02f53ed96e3e6fe86e11') in 0.213015 seconds
+  Import took 0.240023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/Skyboxes/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b349bd5a2838618b9981d4a802c186a4') in 0.070342 seconds
+  Import took 0.125878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Skyboxes/Skybox_Night_Green.mat
+  artifactKey: Guid(ca1b85a2acb05914eae0b376da4f724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox_Night_Green.mat using Guid(ca1b85a2acb05914eae0b376da4f724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a640656f4c525187ee0728f5e43bad') in 0.079421 seconds
+  Import took 0.099971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Skyboxes/MoodySunrise02.cubemap
+  artifactKey: Guid(0514740d6899b9d46a22b4ea4519ca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/MoodySunrise02.cubemap using Guid(0514740d6899b9d46a22b4ea4519ca75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5cbaa83c1066adb2ae7a1d8a0ba9cf') in 0.189446 seconds
+  Import took 0.275714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Skyboxes/BlueSky02.cubemap
+  artifactKey: Guid(3b1359bf43783994da9234faab55c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/BlueSky02.cubemap using Guid(3b1359bf43783994da9234faab55c440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec1a312400ac293ead2cff81bef4e43') in 0.187605 seconds
+  Import took 0.197635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Skyboxes/MonValley_G_DirtRoad_8k.jpg
+  artifactKey: Guid(4edeaf59e0828ce4db930ca22e18028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/MonValley_G_DirtRoad_8k.jpg using Guid(4edeaf59e0828ce4db930ca22e18028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623f22519efe2520dffe0e99ebf44e67') in 0.608100 seconds
+  Import took 0.655031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000819 seconds.
+  path: Assets/Skyboxes/Skybox1_sun_cloud 1.mat
+  artifactKey: Guid(a342ef7e279a21e42a669946556ac6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox1_sun_cloud 1.mat using Guid(a342ef7e279a21e42a669946556ac6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5939dda8eb5e92ff086729934450c546') in 0.154021 seconds
+  Import took 0.197436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/Skyboxes/RhinoDefault.exr
+  artifactKey: Guid(6b4d381dbf2a9254dbae6cc1c44c5a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/RhinoDefault.exr using Guid(6b4d381dbf2a9254dbae6cc1c44c5a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6827d8faa0cc3a0eba539172b42306dd') in 0.153355 seconds
+  Import took 0.171021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Skyboxes/Skybox1_sun_cloud.png
+  artifactKey: Guid(8dd9be9d3ef698e4aafd697b719c0356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox1_sun_cloud.png using Guid(8dd9be9d3ef698e4aafd697b719c0356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7820660e85846a7d14fc3b682151dd') in 0.063212 seconds
+  Import took 0.077636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Skyboxes/BlueSky01.cubemap
+  artifactKey: Guid(de191f8ffb2561a4b8a41f72ceb16cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/BlueSky01.cubemap using Guid(de191f8ffb2561a4b8a41f72ceb16cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0da814da8994035d526249369c79cf') in 0.244609 seconds
+  Import took 0.277909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Skyboxes/StormySky_CubeMap.mat
+  artifactKey: Guid(78057f0976241154f988a2035905fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/StormySky_CubeMap.mat using Guid(78057f0976241154f988a2035905fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d4dff74591bd7d07da65298d09bdd4') in 0.384173 seconds
+  Import took 0.420697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001175 seconds.
+  path: Assets/Skyboxes/Skybox_Island.mat
+  artifactKey: Guid(9d223c3f0ec288845b34111cf3217ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox_Island.mat using Guid(9d223c3f0ec288845b34111cf3217ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fea15b97135f51ccf679d411eb495a') in 0.135198 seconds
+  Import took 0.165430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000998 seconds.
+  path: Assets/Skyboxes/GoldenHorizon.cubemap
+  artifactKey: Guid(395747037b63b554889e5b6c06dec1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/GoldenHorizon.cubemap using Guid(395747037b63b554889e5b6c06dec1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81be5df1777efcfacca8066d302f9f34') in 0.233126 seconds
+  Import took 0.267058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/Skyboxes/BrightMorning.cubemap
+  artifactKey: Guid(2b39781b554105245979ae105a7da9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/BrightMorning.cubemap using Guid(2b39781b554105245979ae105a7da9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0ebc4d9b287a568e916f91c84bc87') in 0.266759 seconds
+  Import took 0.285142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001015 seconds.
+  path: Assets/Skyboxes/Skybox1_sun_cloud.mat
+  artifactKey: Guid(18c18ec5576b8cf4982bf5ad5ea0910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Skybox1_sun_cloud.mat using Guid(18c18ec5576b8cf4982bf5ad5ea0910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b936bc6b5d1e426cd895c3fe80304fbd') in 0.078418 seconds
+  Import took 0.115206 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
